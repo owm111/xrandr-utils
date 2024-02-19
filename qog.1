@@ -1,0 +1,31 @@
+.Dd 2024-02-15
+.Dt QOG 1
+.Os
+.Sh NAME
+.Nm qog
+.Nd query output geometry
+.Sh SYNOPSIS
+.Nm
+.Op Fl sv
+.Sh DESCRIPTION
+The
+.Nm
+utility prints the geometry of
+.Xr Xinerama 3
+screens or
+.Xr Xrandr 3
+outputs.
+If the
+.Fl s
+option is given, then the overall screen geometry will be included.
+If the
+.Fl v
+option is given,
+.Nm
+will only print its version and exit.
+.Sh EXIT STATUS
+.Ex -std
+.Sh SEE ALSO
+.Xr Xinerama 3 ,
+.Xr Xrandr 3 ,
+.Xr xrandr 1
